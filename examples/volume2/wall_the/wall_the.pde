@@ -11,7 +11,7 @@ final int H = W/2;
 final int R = W/10;
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

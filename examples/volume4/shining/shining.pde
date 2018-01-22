@@ -9,11 +9,11 @@
 final color PAPER = color(240, 90, 40);
 final color INK = color(0);
 
-final String P = "fflfflfrfrfrfrfrflffl ffrffrflflflflflfrffr";
+final String P = "fflfflfrfrfrfrfrflffl ffrffrflflflflflfrffr fflfflfrfrfrfrfrflffl ffrffrflflflflflfrffr";
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

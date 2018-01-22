@@ -12,7 +12,7 @@ final float D = 0.1*L;
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

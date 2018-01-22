@@ -9,7 +9,7 @@ final color INK = color(220, 50, 50);
 final int SPOTS = 1000;
 
 void setup() {
- size(480, 640);
+ size(2560, 1080);
  noLoop();
 }
 

@@ -12,7 +12,7 @@ final color INK2 = color(190, 0, 0);
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

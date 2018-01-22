@@ -11,7 +11,7 @@ final color INK3 = color(30, 30, 30);
 PFont font;
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
   
   font = loadFont("Cleanvertising-Black-96.vlw");

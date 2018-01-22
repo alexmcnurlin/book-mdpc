@@ -14,7 +14,7 @@ final float L2 = L1 - (T / tan(0.25*A));
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

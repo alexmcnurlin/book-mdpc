@@ -13,7 +13,7 @@ final color PAPER = color(190, 0, 50);
 void setup() {
   
   //dimensione del foglio di lavoro (larghezza x altezza)  
-  size(480, 640);
+  size(2560, 1080);
   
   //solo un singolo fotogramma
   noLoop();

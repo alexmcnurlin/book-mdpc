@@ -9,7 +9,7 @@ final color INK2 = color(0);
 final color INK3 = color(210, 135, 10);
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
  

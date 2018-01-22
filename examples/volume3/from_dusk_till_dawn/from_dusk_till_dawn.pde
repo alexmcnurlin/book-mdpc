@@ -13,7 +13,7 @@ final int RAYS = 7;
 final int DELTA = 2;
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

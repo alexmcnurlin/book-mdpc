@@ -11,7 +11,7 @@ final color INK2 = color(255);
 final int STRIPES = 5;
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

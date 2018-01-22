@@ -7,7 +7,7 @@ final color PAPER = color(55, 50, 0);
 final color INK = color(170, 165, 120);
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

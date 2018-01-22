@@ -14,7 +14,7 @@ final color INK3 = color(230, 210, 170);
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

@@ -12,7 +12,7 @@ final float A2 = HALF_PI + QUARTER_PI;
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

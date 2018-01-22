@@ -13,7 +13,7 @@ PFont f;
 
 void setup() {
  
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
   
   f = loadFont("courier.vlw");

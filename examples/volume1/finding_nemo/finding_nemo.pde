@@ -12,7 +12,7 @@ final float STROKE = 10.0;
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

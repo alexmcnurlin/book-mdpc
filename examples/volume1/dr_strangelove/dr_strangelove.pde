@@ -13,7 +13,7 @@ final color INK = color(25, 25, 110);
 final float S = 0.10;
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

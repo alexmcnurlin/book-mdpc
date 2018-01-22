@@ -12,7 +12,7 @@ final color INK4 = color(50, 80, 135, 100);
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 
@@ -20,7 +20,7 @@ void setup() {
 void draw() {
   
   translate(0.5*width, 0.7*height);
-  scale(min(width, height));
+  scale(min(width*.6, height*.6));
   
   background(PAPER);
   
@@ -44,7 +44,7 @@ void draw() {
   endShape(CLOSE);
   
   fill(INK4);
-  rect(-0.5, -0.15, width, height);
+  rect(-2.0, -0.15, width, height);
   
   save("titanic.png");
 }
