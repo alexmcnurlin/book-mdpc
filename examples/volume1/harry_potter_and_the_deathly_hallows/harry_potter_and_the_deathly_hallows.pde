@@ -22,7 +22,7 @@ void draw() {
   println(r);
   float d = TWO_PI/3;
   
-  translate(width/2.0, height/2.0);
+  translate(width/2.0, height/2.0+r/4);
   rotate(-HALF_PI);
   
   background(PAPER);

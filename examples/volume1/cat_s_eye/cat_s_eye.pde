@@ -15,8 +15,8 @@ void setup() {
 
 
 void draw() {
- 
-  float s = 1.35 * width;
+  float graphicSize = min(width, 1.10*height);
+  float s = 1.35 * graphicSize;
   
   translate(width/2.0, height/2.0);
   

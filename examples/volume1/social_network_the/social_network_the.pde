@@ -16,9 +16,18 @@ void setup() {
 
 void draw() {
   
-  float s = 0.2 * min(width, height);
   
   translate(width/2.0, height/4.0);
+  float graphicsWidth;
+  float graphicsHeight;
+  if (width < 3/4.*height) {
+    graphicsWidth = width;
+    graphicsHeight = 4/3.*width;
+  } else {
+    graphicsHeight = height;
+    graphicsWidth = 3/4.*height;
+  }
+  float s = 0.2 * min(graphicsWidth, graphicsHeight);
   
   background(PAPER);
   stroke(INK);
@@ -30,13 +39,13 @@ void draw() {
   
   strokeWeight(s);
   beginShape();
-    vertex(width/5.0, 0);
+    vertex(graphicsWidth/5.0, 0);
     vertex(0, 0);
-    vertex(0, height/2.0); 
+    vertex(0, graphicsHeight/2.0); 
   endShape();
   
   strokeWeight(0.8*s);
-  line(-width/8.0, height/4.0, width/5.0, height/4.0);
+  line(-graphicsWidth/8.0, graphicsHeight/4.0, graphicsWidth/5.0, graphicsHeight/4.0);
   
   save("the-social-network.png");
 }

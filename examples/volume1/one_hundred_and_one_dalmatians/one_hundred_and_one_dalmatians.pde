@@ -7,7 +7,7 @@
 final color PAPER = color(250);
 final color INK = color(35);
 
-final int SPOTS = 7;
+final int SPOTS = 40;
 
 
 void setup() {

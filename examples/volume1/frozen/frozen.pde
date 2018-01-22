@@ -19,6 +19,7 @@ void setup() {
 void draw() {
   
   float s = min(width, height) / 48; 
+  float graphicWidth = min(width, height);
   
   translate(width/2.0, height/2.0);
   
@@ -28,9 +29,9 @@ void draw() {
   strokeWeight(s);
   
   for (int i=0; i<COUNT; i++) {
-    line(0, 0, 0.4*width, 0);
+    line(0, 0, 0.4*graphicWidth, 0);
     for (int k=0; k<5; k++) {
-      float step = 0.07*k*width;
+      float step = 0.07*k*graphicWidth;
       line(step, 0, step+2*s, 2*s);
       line(step, 0, step+2*s, -2*s);
     }

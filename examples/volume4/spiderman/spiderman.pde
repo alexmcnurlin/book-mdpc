@@ -22,6 +22,8 @@ void draw() {
   float s = 0.01 * min(width, height);
   
   translate(0.5*width, 0.5*height);
+  float graphicWidth = 480;
+  
   
   background(PAPER);
   stroke(INK1);
@@ -31,7 +33,7 @@ void draw() {
     
   for (int i=0; i<LINES; i++) {
     rotate(PI/(LINES+1));
-    line(-width, 0, +width, 0);
+    line(-graphicWidth, 0, +graphicWidth, 0);
   }
   
   strokeWeight(s);
@@ -39,8 +41,8 @@ void draw() {
   resetMatrix();
   translate(width/2.0, height/2.0);
   
-  triangle( 5*s, 0,  width, -height/3,  width, 20*s);
-  triangle(-5*s, 0, -width, -height/3, -width, 20*s);
+  triangle( 5*s, 0,  graphicWidth, -height/5,  graphicWidth, 12*s);
+  triangle(-5*s, 0, -graphicWidth, -height/5, -graphicWidth, 12*s);
   
   save("spider-man.png");
 }
