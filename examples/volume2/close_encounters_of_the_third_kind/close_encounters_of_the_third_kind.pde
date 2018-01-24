@@ -23,8 +23,8 @@ void setup() {
 
 void draw() {
   
-  float w = width/(COLS+1);
-  float h = w/2.0;
+  float w = width/(COLS+1)*2.0/3.0;
+  float h = w/3.0;
   
   translate(width/2.0, height/3.0);
   

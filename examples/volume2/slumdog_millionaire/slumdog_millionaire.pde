@@ -15,6 +15,16 @@ void  setup() {
 void draw() {
   
   translate(width/2.0, 2*height/3.0);
+
+  float graphicsWidth;
+  float graphicsHeight;
+  if (width < 3/4.*height) {
+    graphicsWidth = width;
+    graphicsHeight = 4/3.*width;
+  } else {
+    graphicsHeight = height;
+    graphicsWidth = 3/4.*height;
+  }
   
   background(PAPER);
   
@@ -28,10 +38,10 @@ void draw() {
   line(-width/2.0,  100, width/2.0,  100);
   
   drawCell(         0, -100, 400, 50);
-  drawCell(-width/4.0,    0, 150, 50);
-  drawCell( width/4.0,    0, 150, 50);
-  drawCell(-width/4.0,  100, 150, 50);
-  drawCell( width/4.0,  100, 150, 50);
+  drawCell(-graphicsWidth/4.0+75,    0, 150, 50);
+  drawCell( graphicsWidth/4.0-75,    0, 150, 50);
+  drawCell(-graphicsWidth/4.0+75,  100, 150, 50);
+  drawCell( graphicsWidth/4.0-75,  100, 150, 50);
   
   save("slumdog-millionaire.png");
 }
