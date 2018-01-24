@@ -16,6 +16,15 @@ void setup() {
 void draw() {
   
   translate(width/2.0, height/2.0);
+  float graphicsWidth;
+  float graphicsHeight;
+  if (width < 3/4.*height) {
+    graphicsWidth = width;
+    graphicsHeight = 4/3.*width;
+  } else {
+    graphicsHeight = height;
+    graphicsWidth = 3/4.*height;
+  }
   
   background(PAPER);
   fill(INK);
@@ -23,11 +32,11 @@ void draw() {
   
   strokeWeight(SIZE);
   
-  float w1 = width/3.0;
-  float w2 = width/6.0;
+  float w1 = graphicsWidth/3.0;
+  float w2 = graphicsWidth/6.0;
   
-  float h1 = height/5.0;
-  float h2 = height/8.0;
+  float h1 = graphicsHeight/5.0;
+  float h2 = graphicsHeight/8.0;
   
   lines(-w2, 0, w2, 0, 4*SIZE);
   lines( w2, 0, w1, h2, 4*SIZE);

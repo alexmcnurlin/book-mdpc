@@ -17,7 +17,7 @@ void draw() {
   
   background(PAPER);
   
-  translate(width/2.0, 0);
+  translate(width/2.0, height/4.0);
   
   int phase = 1;
   for (int j=0; j<2; j++) {
