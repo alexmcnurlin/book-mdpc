@@ -22,7 +22,7 @@ void draw() {
   final float S =  min(width, height);
   final float U = 0.002;
   
-  translate(0.5*width, 0.6*height);
+  translate(0.5*width, 0.7*height);
   scale(S);
   
   background(PAPER);

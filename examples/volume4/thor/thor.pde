@@ -32,8 +32,8 @@ void draw() {
   rect(0, 0, s, 0.5*s, 0.1*s);
   
   stroke(PAPER);
-  line(-0.25*width, -height, -0.25*width, height);
-  line( 0.25*width, -height,  0.25*width, height);
+  line(-0.40*s, -height, -0.40*s, height);
+  line( 0.40*s, -height,  0.40*s, height);
   
   translate(0, 0.6*s);
   

@@ -14,9 +14,18 @@ void setup() {
 
 void draw() {
   
- float s = 0.4 * min(width, height);
   
   translate(0.5*width, 0.7*height);
+  float graphicsWidth;
+  float graphicsHeight;
+  if (width < 3/4.*height) {
+    graphicsWidth = width;
+    graphicsHeight = 4/3.*width;
+  } else {
+    graphicsHeight = height;
+    graphicsWidth = 3/4.*height;
+  }
+ float s = 0.4 * min(graphicsWidth, graphicsHeight);
   
   background(PAPER);
   

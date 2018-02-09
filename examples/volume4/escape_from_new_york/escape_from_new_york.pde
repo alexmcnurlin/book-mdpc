@@ -18,7 +18,7 @@ void draw() {
   final float F = min(width, height);
   final float U = 0.002;
   
-  translate(0.0, 0.75*height);
+  translate(0, 0.75*height);
   scale(F);
   
   background(PAPER);
@@ -26,12 +26,14 @@ void draw() {
   stroke(INK);
   strokeWeight(5*U);
   
+  line(-width, 0, 0, 0);
   drawTurtle("fl3fr3fr3flf", 0.05, HALF_PI);
   drawTurtle("l9frffr9flf", 0.05, HALF_PI);
   drawTurtle("l9frffr9flf", 0.05, HALF_PI);
   drawTurtle("l6frflfrrflfr6flf", 0.05, HALF_PI);
   drawTurtle("lfrfl3frfr3flfrflf", 0.05, HALF_PI);
   drawTurtle("l5frfr5flf", 0.05, HALF_PI);
+  line(0, 0, width, 0);
   
   save("escape-from-new-york.png");
 }

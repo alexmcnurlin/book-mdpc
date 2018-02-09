@@ -21,7 +21,7 @@ void draw() {
   
   background(PAPER);
   
-  translate(0.5*width, 0.25*height);
+  translate(0.5*width, .15*height);
   
   fill(INK2);
   stroke(INK1);
