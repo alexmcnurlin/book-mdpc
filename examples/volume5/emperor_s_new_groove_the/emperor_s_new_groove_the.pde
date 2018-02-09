@@ -12,7 +12,7 @@ final float DELTA = 0.03*PI;
 
 
 void setup() {
-  size(480, 640);
+  size(2560, 1080);
   noLoop();
 }
 

@@ -4,7 +4,7 @@
 // Minions
 
 
-final color PAPER = color(255, 255, 15);
+final color PAPER = color(245, 224, 80);
 final color INK1 = color(40, 40, 40);
 final color INK2 = color(240, 240, 240);
 final color INK3 = color(150, 150, 150);
