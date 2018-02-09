@@ -348,15 +348,22 @@ Use PDE `File -> Examples... -> Add examples` or follow these links to manually 
 <a href="examples/volume5/back_to_the_future/">
     <img src="examples/volume5/back_to_the_future/back-to-the-future.png" width="120px" title="Back to the Future"/>
 </a>
+<a href="examples/volume5/emperor_s_new_groove_the/">
+    <img src="examples/volume5/emperor_s_new_groove_the/the-emperor's-new-groove.png" width="120px" title="The Emperor's New Groove"/>
+</a>
 <a href="examples/volume5/king_kong/">
     <img src="examples/volume5/king_kong/king-kong.png" width="120px" title="King Kong"/>
 </a>
 <a href="examples/volume5/moana/">
     <img src="examples/volume5/moana/moana.png" width="120px" title="Moana"/>
 </a>
+<a href="examples/volume5/neverending_story_the/">
+    <img src="examples/volume5/neverending_story_the/the-neverending-story.png" width="120px" title="The NeverEnding Story"/>
+</a>
 <a href="examples/volume5/star_trek/">
     <img src="examples/volume5/star_trek/star-trek.png" width="120px" title="Star Trek: The Motion Picture"/>
 </a>
+<br class="index-separator"/>
 <a href="examples/volume5/v_for_vendetta/">
     <img src="examples/volume5/v_for_vendetta/v-for-vendetta.png" width="120px" title="V for Vendetta"/>
 </a>

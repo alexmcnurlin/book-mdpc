@@ -10,6 +10,7 @@ final color INK = color(160, 40, 25);
 
 void setup() {
   size(2560, 1080);
+  smooth(8);
   noLoop();
 }
 
@@ -19,6 +20,8 @@ void draw() {
   final float S =  min(width, height);
   final float U = 0.002;
   
+  final float T = 30*U;
+  
   translate(0.5*width, 0.5*height);
   scale(0.6*S);
   
@@ -27,20 +30,14 @@ void draw() {
   fill(INK);  
   noStroke();
   
-  PShape s = createShape();
-  s.beginShape();
-  s.noFill();
-  s.stroke(INK);
-  s.strokeWeight(30*U);
-  for (float a=0; a<2.6*PI; a+=40*U) {
-    s.vertex(0.06*a*cos(a), 0.06*a*sin(a)); 
+  for (float a=0; a<2.6*PI; a+=0.1*T) {
+    
+    float x = 0.06*a*cos(a);
+    float y = 0.06*a*sin(a);
+    
+    ellipse( x,  y, T, T);
+    ellipse(-x, -y, T, T);
   }
-  s.endShape();
   
-  shape(s, 0, 0);
-  
-  scale(-1);
-  shape(s, 0, 0);
-
   save("moana.png");
 }
